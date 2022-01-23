@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>NinjaFlix - WebApp</title><link rel="icon" href="https://reportbuilder.rajatthareja.com/rb.ico">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection"/>
+<link href="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.8/css/report.builder.min.css" rel="stylesheet">
+</head><body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script><header class="indigo lighten-5">
+<div class="row indigo lighten-1">
+<div class="col m6 hide-on-small-only">
+<h5 class="truncate white-text tooltipped" data-tooltip="NinjaFlix - WebApp">NinjaFlix - WebApp</h5>
+</div><div class="col m6 s12 indigo lighten-1">
+<ul class="tabs indigo lighten-1 row" style="overflow-x: hidden">
+<li class="tab col s3">
+<a class="indigo lighten-3 active blue-text waves-effect waves-light tooltipped" data-tooltip="Results Overview" href="#overview"><i class="material-icons">assessment</i> Overview</a>
+</li>
+<li class="tab col s3">
+<a class="indigo lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios by Features" href="#features"><i class="material-icons">view_headline</i> Features</a>
+</li>
+<li class="tab col s3">
+<a class="indigo lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios Summary Table" href="#summary"><i class="material-icons">view_comfy</i> Summary</a>
+</li>
+<li class="tab col s3">
+<a class="indigo lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Failed Scenarios" href="#errors"><i class="material-icons">bug_report</i> Errors</a>
+</li>
+</ul>
+</div>
+</div>
+</header>
+<div id="g0f0s0" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@login</div><div class="chip"><i class="material-icons rotate-45">label</i>@new_movie</div><h5>Novo filme (8.921s)</h5>
+features/cadastro-de-filmes.feature:20<pre>session not created: This version of ChromeDriver only supports Chrome version 80 (Selenium::WebDriver::Error::SessionNotCreatedError)
+Backtrace:
+	Ordinal0 [0x00B10C83+1707139]
+	Ordinal0 [0x00A768F1+1075441]
+	Ordinal0 [0x009EDFC9+516041]
+	Ordinal0 [0x00980554+66900]
+	Ordinal0 [0x0097CCE2+52450]
+	Ordinal0 [0x0099BFD7+180183]
+	Ordinal0 [0x0099BDDD+179677]
+	Ordinal0 [0x00999D4B+171339]
+	Ordinal0 [0x00981D4A+73034]
+	Ordinal0 [0x00982DC0+77248]
+	Ordinal0 [0x00982D59+77145]
+	Ordinal0 [0x00A8BB67+1162087]
+	GetHandleVerifier [0x00BAA966+508998]
+	GetHandleVerifier [0x00BAA6A4+508292]
+	GetHandleVerifier [0x00BBF7B7+594583]
+	GetHandleVerifier [0x00BAB1D6+511158]
+	Ordinal0 [0x00A8402C+1130540]
+	Ordinal0 [0x00A8D4CB+1168587]
+	Ordinal0 [0x00A8D633+1168947]
+	Ordinal0 [0x00AA5B35+1268533]
+	BaseThreadInitThunk [0x76A96739+25]
+	RtlGetAppContainerNamedObjectPath [0x7726BCD0+240]
+	RtlGetAppContainerNamedObjectPath [0x7726BC9A+186]
+./features/support/hooks.rb:9:in `Before&#39;</pre><pre>session not created: This version of ChromeDriver only supports Chrome version 80 (Selenium::WebDriver::Error::SessionNotCreatedError)
+Backtrace:
+	Ordinal0 [0x00B10C83+1707139]
+	Ordinal0 [0x00A768F1+1075441]
+	Ordinal0 [0x009EDFC9+516041]
+	Ordinal0 [0x00980554+66900]
+	Ordinal0 [0x0097CCE2+52450]
+	Ordinal0 [0x0099BFD7+180183]
+	Ordinal0 [0x0099BDDD+179677]
+	Ordinal0 [0x00999D4B+171339]
+	Ordinal0 [0x00981D4A+73034]
+	Ordinal0 [0x00982DC0+77248]
+	Ordinal0 [0x00982D59+77145]
+	Ordinal0 [0x00A8BB67+1162087]
+	GetHandleVerifier [0x00BAA966+508998]
+	GetHandleVerifier [0x00BAA6A4+508292]
+	GetHandleVerifier [0x00BBF7B7+594583]
+	GetHandleVerifier [0x00BAB1D6+511158]
+	Ordinal0 [0x00A8402C+1130540]
+	Ordinal0 [0x00A8D4CB+1168587]
+	Ordinal0 [0x00A8D633+1168947]
+	Ordinal0 [0x00AA5B35+1268533]
+	BaseThreadInitThunk [0x76A96739+25]
+	RtlGetAppContainerNamedObjectPath [0x7726BCD0+240]
+	RtlGetAppContainerNamedObjectPath [0x7726BC9A+186]
+./features/support/pages/login_page.rb:5:in `go&#39;
+./features/support/hooks.rb:14:in `Before&#39;</pre><ul class="collection stepList"><li class="collection-item step skipped">
+<b>Dado </b> que &quot;ultimato&quot; é um novo filme (0.000s)</li>
+<li class="collection-item step skipped">
+<b>Quando </b> eu faço o cadastro deste filme (0.000s)</li>
+<li class="collection-item step skipped">
+<b>Então </b> devo ver o novo filme na lista (0.000s)</li>
+</ul><pre>Failed to open TCP connection to 127.0.0.1:9515 (Nenhuma conexÒo p¶de ser feita porque a mßquina de destino as recusou ativamente. - connect(2) for &quot;127.0.0.1&quot; port 9515) (Errno::ECONNREFUSED)
+./features/support/hooks.rb:20:in `After&#39;</pre></div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();});
+</script>
+<main class="indigo lighten-5">
+<div class="row"><div id="overview" class="col s12 indigo lighten-5">
+<div class="row">
+<div class="col m4 s12">
+<canvas id="featuresDoughnut" width="400" height="400"></canvas>
+<table id="metaDataFeatures" class="bordered">
+<tbody></tbody>
+</table>
+</div><div class="col m4 s12">
+<canvas id="scenariosDoughnut" width="400" height="400"></canvas>
+<table id="metaDataScenarios" class="bordered">
+<tbody></tbody>
+</table>
+</div><div class="col m4 s12">
+<table id="metaData" class="bordered">
+<tbody>
+<tr><th>Total Time</th><td>8.921s</td></tr><tr>
+<th>App</th>
+<td>Web</td>
+</tr><tr>
+<th>Data de execução</th>
+<td>2020-06-06T17-36-34-03-00</td>
+</tr></tbody>
+</table>
+</div>
+</div></div><div id="features" class="col s12 indigo lighten-5 white-text">
+<ul class="featureList collapsible popout" data-collapsible="expandable">
+<li class="feature broken">
+<div class="collapsible-header indigo lighten-1 waves-effect waves-light">
+<i class="material-icons">featured_play_list</i>
+<b>Funcionalidade</b>&nbsp;Cadastro de filmes&nbsp;(8.921s)
+</div><div class="collapsible-body indigo lighten-4">
+<ul class="collection scenarioList"><li class="collection-item scenario failed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s0">
+<b>Esquema do Cenario</b> Novo filme&nbsp;(8.921s)
+</a>
+</li></ul>
+</div>
+</li>
+</ul></div><div id="summary" class="col s12 indigo lighten-5">
+<table id="summaryTable" class="bordered indigo lighten-1 white-text" width="100%">
+<thead>
+<tr>
+<th class="hide-on-small-only">Feature</th>
+<th>Scenario</th>
+<th class="hide">Tags</th>
+<th>Status</th>
+<th class="hide-on-small-only">Error</th>
+</tr>
+</thead>
+<tbody><tr class="failed">
+<td class="hide-on-small-only">
+Cadastro de filmes
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f0s0">Novo filme</a>
+</td><td class="hide">
+@login. @new_movie. 
+</td><td class="uppercase">
+failed
+</td><td class="hide-on-small-only">Failed to open TCP connection to 127.0.0.1:9515 (Nenhuma conexÒo p¶de ser feita porque a mßquina de destino as recusou ativamente. - connect(2) for &quot;127.0.0.1&quot; port 9515) (Errno::ECONNREFUSED)</td></tr>
+</tbody>
+</table></div><div id="errors" class="col s12 indigo lighten-5">
+<ul class="errorList collapsible popout" data-collapsible="expandable"><li class="error">
+<div class="collapsible-header red lighten-2 white-text waves-effect waves-light">
+<i class="material-icons">bug_report</i>session not created: This version of ChromeDriver only supports Chrome version 80 (Selenium::WebDriver::Error::SessionNotCreatedError)
+</div><div class="collapsible-body indigo lighten-4">
+<ul class="collection failedScenarioList"></ul>
+</div>
+</li>
+<li class="error">
+<div class="collapsible-header red lighten-2 white-text waves-effect waves-light">
+<i class="material-icons">bug_report</i>Failed to open TCP connection to 127.0.0.1:9515 (Nenhuma conexÒo p¶de ser feita porque a mßquina de destino as recusou ativamente. - connect(2) for &quot;127.0.0.1&quot; port 9515) (Errno::ECONNREFUSED)
+</div><div class="collapsible-body indigo lighten-4">
+<ul class="collection failedScenarioList">
+<li class="collection-item failedScenario indigo lighten-5 red-text">
+<i class="material-icons">highlight_off</i>&nbsp;<a class="modal-trigger red-text" href="#g0f0s0">Novo filme</a>
+</li>
+</ul>
+</div>
+</li>
+</ul></div>
+</div>
+</main><footer class="page-footer indigo lighten-4">
+<div class="footer-copyright indigo lighten-1">
+<div class="container">
+Happy Reporting!
+<a class="white-text text-lighten-4 right" href="https://reportbuilder.rajatthareja.com">Generated by Report Builder</a>
+</div>
+</div>
+</footer><script type="text/javascript" src="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.8/js/report.builder.min.js"></script></body>
+</html>
